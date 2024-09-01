@@ -4,11 +4,15 @@ A Selenium (java) framework for automation testing based on Page Object Model (P
 
 The framework uses:
 Java
-Selenium
+Selenium webdriver
 TestNG
-ExtentReport
 
 Website under test:
 
 Test Cases:
 
+1st commit: Basic structure and foundation
+- Basic Folder structure
+- Base.java, utils.java, pom.xnl and testng.xml
+- Pages: contains object repo and methods
+- Testpage: contains test case using testng annotations
