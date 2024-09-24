@@ -4,8 +4,6 @@ package qa.util;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
-
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -19,6 +17,7 @@ public class Utils {
 	
 	static Workbook book;
 	static Sheet sheet;
+
 	
 	public static Object[][] getExcelData(String sheetName) {
 		FileInputStream file = null;
