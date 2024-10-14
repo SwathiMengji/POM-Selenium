@@ -35,4 +35,19 @@ public class HomePage extends Base{
 		return price;
 	}
 	
+	public void verify_dropdowns() {
+		
+	}
+	
+	public void verify_image_c1() {
+		
+	}
+	
+	public void verify_featured_section() {
+		
+	}
+	
+	public void verify_image_c2() {
+		
+	}
 }
