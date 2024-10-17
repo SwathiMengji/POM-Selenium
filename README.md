@@ -1,40 +1,50 @@
 # Selenium - Page Object Model Framework
 
-A Selenium (java) framework for automation testing based on Page Object Model (POM) using TestNG.
+This project automates key functionalities of a website using **Selenium WebDriver**, **Java**, **TestNG**, and the **Page Object Model (POM)** framework. The goal is to validate various functionalities and elements on the site such as login, iframes, calendars, dropdowns, radio buttons, checkboxes, web tables, notifications, and alerts.
 
-The framework uses:
-Java
-Selenium webdriver
-TestNG
-
-Website under test: https://tutorialsninja.com/demo/index.php?route=common/home
-- The website is an e-commerce demo site designed by QAFox specifically for Selenium automation testing. 
-
-Progress: 
-2: Designing and documenting test cases for following Pages and fucntionalities
-- Home Page
-	- Search "Canon EOS 5D" and go back to home page.
-	- Verify contents in dropdowns in homescreen ribbon by comapring data is excel file.
-	- Verify images in carousel 1.
-	- In "Featured" section for "iPhone" check for pop up text when hovering over cart, wishlist and compare icons.
-	- Verify the "Dell" image in carousel 2.
-	
-- Register Page
-	(Creating emails)
-	- Verify error messages in each form entry by clicking "continue" button without entering any details.
-	- Registering with already existing user email should throw error.
-	- Different passwords in "Password" and "Password Confirm" entries should throw error.
-	- Not checking the agreement checkbox and clicking on "continue" button should throw error.
-	
-	
-- Login
-	- Trying to login with incorrect details should throw error.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [Test Cases Implemented](#test-cases-implemented)
 
 
+## Project Overview
+
+This automation project tests various modules of a website. The following functionality is covered:
+- Login functionality
+- Handling iframes for employee details
+- Using a calendar pop-up for leave requests
+- Selecting dropdowns and radio buttons for job assignments
+- Interacting with checkboxes and web tables for employee selection
+- Handling notifications and alerts
+
+## Technologies Used
+
+- **Java**: Programming language
+- **Selenium WebDriver**: For browser automation
+- **TestNG**: Testing framework for structuring tests
+- **Page Object Model (POM)**: Design pattern for better maintainability and readability
+- **Build**: Maven
 
 
-1: Basic structure and foundation
-- Basic Folder structure
-- Base.java, utils.java, pom.xnl and testng.xml
-- Pages: contains object repo and methods
-- Testpage: contains test case using TestNG annotations
+## Test Cases Implemented
+
+- Test Case 1: Verify Login Functionality
+Test Scenario: Validate the login functionality of the OrangeHRM website.
+Steps:
+1.	Navigate to the login page.
+2.	Enter valid credentials (username and password).
+3.	Click on the "Login" button.
+4.	Verify the heading “Dashboard” on the homepage.
+Expected Result: User should be logged in successfully and redirected to the dashboard.
+
+
+- Test Case 2: Verify Calendar Functionality for Leave Request
+Test Scenario: Test the functionality of the calendar while applying for leave.
+Steps:
+1.	Navigate to the "Leave" section after logging in.
+2.	Click on "Apply" for a leave request.
+3.	In the date fields, select the "From" and "To" dates using the calendar pop-up.
+Expected Result: The user should be able to select dates from the calendar, and the correct dates should be populated in the input fields.
+
+**More test cases with different functionalities on the way..."

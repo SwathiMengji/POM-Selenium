@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-20T18:05:03 MST" name="Default suite" finished-at="2024-09-20T18:05:11 MST" duration-ms="7904">
+  <suite started-at="2024-10-17T14:53:25 MST" name="Default suite" finished-at="2024-10-17T14:53:31 MST" duration-ms="5416">
     <groups>
     </groups>
-    <test started-at="2024-09-20T18:05:03 MST" name="Default test" finished-at="2024-09-20T18:05:11 MST" duration-ms="7904">
-      <class name="qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.HomePageTest@6e9175d8]" started-at="2024-09-20T18:05:03 MST" name="setup" finished-at="2024-09-20T18:05:09 MST" duration-ms="6412" status="PASS">
+    <test started-at="2024-10-17T14:53:25 MST" name="Default test" finished-at="2024-10-17T14:53:31 MST" duration-ms="5416">
+      <class name="qa.testcases.LeavePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.LeavePageTest@6e9175d8]" started-at="2024-10-17T14:53:25 MST" name="setup" finished-at="2024-10-17T14:53:30 MST" duration-ms="4855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SearchFunctionalityVaidation()[pri:1, instance:qa.testcases.HomePageTest@6e9175d8]" started-at="2024-09-20T18:05:09 MST" name="SearchFunctionalityVaidation" finished-at="2024-09-20T18:05:10 MST" duration-ms="1120" status="PASS">
+        <test-method signature="verifyHeadingOnLeavePage()[pri:1, instance:qa.testcases.LeavePageTest@6e9175d8]" started-at="2024-10-17T14:53:30 MST" name="verifyHeadingOnLeavePage" finished-at="2024-10-17T14:53:30 MST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchFunctionalityVaidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.HomePageTest@6e9175d8]" started-at="2024-09-20T18:05:10 MST" name="tearDown" finished-at="2024-09-20T18:05:11 MST" duration-ms="270" status="PASS">
+        </test-method> <!-- verifyHeadingOnLeavePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.LeavePageTest@6e9175d8]" started-at="2024-10-17T14:53:30 MST" name="tearDown" finished-at="2024-10-17T14:53:31 MST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- qa.testcases.HomePageTest -->
+      </class> <!-- qa.testcases.LeavePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

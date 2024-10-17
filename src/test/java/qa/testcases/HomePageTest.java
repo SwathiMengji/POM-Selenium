@@ -23,10 +23,10 @@ public class HomePageTest extends Base{
 	}
 	
 	
-	@Test(priority = 1)
-	public void SearchFunctionalityVaidation() {
-		Assert.assertEquals(homePage.search_fucntionality(), "$98.00");
-	}
+//	@Test(priority = 1)
+//	public void SearchFunctionalityVaidation() {
+//		Assert.assertEquals(homePage.search_fucntionality(), "$98.00");
+//	}
 	
 	
 	@AfterMethod
