@@ -31,11 +31,13 @@ This automation project tests various modules of a website. The following functi
 
 **Test Case 1**: Verify Login Functionality
 Test Scenario: Validate the login functionality of the OrangeHRM website.
+
 Steps:
 1.	Navigate to the login page.
 2.	Enter valid credentials (username and password).
 3.	Click on the "Login" button.
 4.	Verify the heading “Dashboard” on the homepage.
+
 Expected Result: User should be logged in successfully and redirected to the dashboard.
 
 
@@ -43,10 +45,12 @@ Expected Result: User should be logged in successfully and redirected to the das
 
 **Test Case 2**: Verify Calendar Functionality for Leave Request
 Test Scenario: Test the functionality of the calendar while applying for leave.
+
 Steps:
 1.	Navigate to the "Leave" section after logging in.
 2.	Click on "Apply" for a leave request.
 3.	In the date fields, select the "From" and "To" dates using the calendar pop-up.
+
 Expected Result: The user should be able to select dates from the calendar, and the correct dates should be populated in the input fields.
 
 **More test cases with different functionalities on the way..."
